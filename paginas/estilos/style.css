@@ -167,9 +167,14 @@ main blockquote a::after {
     content: '🔗';
 }
 
+main div {
+    overflow-x: auto;
+}
+
 main table {
     width: 600px;
     margin: auto;
+    
 }
 
 main thead th {

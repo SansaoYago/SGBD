@@ -65,7 +65,7 @@ main p {
 }
 
 main img {
-    max-width: 320px;
+    max-width: 300px;
 }
 
 main > p > strong {
@@ -81,7 +81,7 @@ main h2 {
     text-indent: 30px;
 }
 
-main ul {
+main ul, ol {
     background-color: #2ea0cd48;
     max-width: 600px;
     list-style-position: inside;
@@ -101,14 +101,23 @@ blockquote {
     box-shadow: 0px 1px 8px 2px rgba(0, 0, 0, 0.17);
 }
 
-main > ul > li {
+main > ul,ol > li {
     color: rgb(79, 79, 79);
     font-weight: bold;
     margin-bottom: 20px;
     line-height: 1.5em;
 }
 
-main > ul > li > strong {
+ol > li > strong {
+    background-color: rgba(128, 128, 128, 0.318);
+    color: black;
+    font-size: 1.1em;
+    padding: 4px 6px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
+    border-radius: 10px;
+    line-height: 1.7em;
+}
+ul > li > strong {
     background-color: rgba(128, 128, 128, 0.318);
     color: black;
     font-size: 1.1em;

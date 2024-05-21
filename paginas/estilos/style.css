@@ -167,3 +167,24 @@ main blockquote a::after {
     content: '🔗';
 }
 
+main table {
+    width: 600px;
+    margin: auto;
+}
+
+main thead th {
+    color: #2EA1CD;
+}
+
+tr, td, th {
+    background-color: #EAEAEA;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+main tfoot th {
+    background-color: white;
+    color: #C0C0C0;
+    text-align: center;
+}
+

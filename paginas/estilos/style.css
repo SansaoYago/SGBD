@@ -182,8 +182,15 @@ main div {
 
 main table {
     width: 600px;
-    margin: auto;
-    
+    margin: auto;   
+}
+
+main table.espacada {
+    margin-bottom: 30px;
+}
+
+.espacada th {
+    color: #2EA1CD;
 }
 
 main thead th {
